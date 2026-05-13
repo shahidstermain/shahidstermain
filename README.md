@@ -1,37 +1,97 @@
-<h1 align="center">Hi 👋, I'm Shahid Moosa</h1>
-<h3 align="center">Distributed Systems & DB Support Engineer</h3>
+<h1 align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a855f7&height=200&section=header&text=Hi,%20I'm%20Shahid%20Moosa&fontSize=60&animation=fadeIn&fontAlignY=35" width="100%" />
+</h1>
 
 <p align="center">
-  Building high-scale query optimizations, reliable infra, and AI-powered platforms.
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=a855f7&center=true&vCenter=true&width=435&lines=Distributed+Systems+Engineer;Database+Support+Specialist;Building+AI-Powered+Platforms;Query+Optimization+Expert" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shahidstermain&label=Profile%20Views&color=6366f1&style=flat-square" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/shahidstermain?label=Followers&style=flat-square&color=a855f7" alt="Followers" />
+  <img src="https://img.shields.io/badge/-India-000000?style=flat-square&logo=locomotive" alt="Location" />
 </p>
 
 ---
 
-### 👨‍💻 About Me
+## 🚀 About Me
 
-- 🔭 I’m currently building **[S2 Report Sniffer](https://github.com/shahidstermain/S2-report-sniffer)**, a local-first platform for analyzing massive offline database diagnostic bundles.
-- 🏢 I work deeply with **SingleStore**, **PostgreSQL**, and distributed cloud architectures.
-- ⚙️ **Specialties:** Query optimization, memory management (OOM triage), distributed architecture, and AI-assisted tooling.
-- 📝 I write about distributed systems and engineering on my **[Digital Garden](https://shahidster.tech)**.
-
-### 🛠️ Core Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/SingleStore-AA00FF?style=for-the-badge&logo=singlestore&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shahidstermain&theme=radical&hide_border=true&stroke=a855f7&ring=a855f7&fire=a855f7&currStreakLabel=a855f7" alt="Streak Stats" />
 </p>
 
-### ✍️ Latest Engineering Posts
+I'm a **Distributed Systems & DB Support Engineer** with a passion for building high-scale query optimizations, reliable infrastructure, and AI-powered platforms. I specialize in:
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+- 🔧 **Database Engineering**: SingleStore, PostgreSQL, CockroachDB
+- ☁️ **Cloud Infrastructure**: AWS, Docker, Kubernetes
+- 🤖 **AI/ML Platforms**: Building intelligent tooling and automation
+- ⚡ **Performance**: Query optimization, memory management, OOM triage
 
 ---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Databases** | SingleStore, PostgreSQL, CockroachDB |
+| **Cloud** | AWS, Docker, Kubernetes |
+| **Languages** | Python, TypeScript, Go |
+| **Frontend** | React, Next.js, Tailwind |
+| **Tools** | Git, Linux, Vim |
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shahidstermain&show_icons=true&theme=radical&hide_border=true&ring=a855f7&card_width=450&title_color=a855f7&icon_color=a855f7" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahidstermain&layout=compact&theme=radical&hide_border=true&title_color=a855f7&icon_color=a855f7&card_width=450" alt="Top Languages" />
+</div>
+
+---
+
+## 🏆 Featured Projects
+
+| Project | Description | Language |
+|---------|-------------|----------|
+| [**S2-report-sniffer**](https://github.com/shahidstermain/S2-report-sniffer) | Local-first platform for analyzing massive offline database diagnostic bundles | Python |
+| [**AndamanBazaarApp**](https://github.com/shahidstermain/AndamanBazaarApp) | Full-stack e-commerce platform with AI integration | TypeScript |
+| [**pi-usb-dac**](https://github.com/shahidstermain/pi-usb-dac) | RPi Zero W + DAC Pro as USB Audio gadget for Mac | Shell |
+| [**shahid-s-signature-site**](https://github.com/shahidstermain/shahid-s-signature-site) | Personal portfolio site | HTML |
+
+---
+
+## 📫 Connect With Me
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shahidstermain&show_icons=true&theme=radical&hide_border=true" alt="Shahid's GitHub Stats" />
+  <a href="https://linkedin.com/in/shahidmoosa" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:connect2shahidmoosa@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://shahidster.tech" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=shahidster">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
 </p>
+
+---
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Build+reliable+systems.+Solve+hard+problems.+Never+stop+learning.&author=Shahid+Moosa" alt="Quote" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shahidstermain&label=Thanks+for+visiting!&color=6366f1&style=social" alt="Thanks" />
+</p>
+
+---
+
+<div align="center">
+  <sub>Built with 💜 and a lot of ☕</sub>
+</div>
