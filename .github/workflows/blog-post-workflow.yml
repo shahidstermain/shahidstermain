@@ -14,7 +14,45 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Select valid blog feed URL
+        id: select_feed
+        run: |
+          python - <<'PY'
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          candidates = [
+              "https://shahidster.tech/feed.xml",
+              "https://shahidster.tech/rss.xml",
+          ]
+
+          selected = None
+          for url in candidates:
+              try:
+                  req = urllib.request.Request(
+                      url,
+                      headers={"User-Agent": "github-actions-blog-feed-check"},
+                  )
+                  with urllib.request.urlopen(req, timeout=20) as resp:
+                      if resp.status != 200:
+                          continue
+                      content = resp.read()
+                  ET.fromstring(content)
+                  selected = url
+                  break
+              except Exception:
+                  continue
+
+          # Keep previous default behavior if no candidate validates.
+          if not selected:
+              selected = candidates[0]
+
+          import os
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"feed_url={selected}\n")
+          print(f"Using feed URL: {selected}")
+          PY
       - name: Pull in posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://shahidster.tech/rss.xml"
+          feed_list: "${{ steps.select_feed.outputs.feed_url }}"
