@@ -22,8 +22,8 @@ jobs:
           import xml.etree.ElementTree as ET
 
           candidates = [
-              "https://shahidster.tech/feed.xml",
               "https://shahidster.tech/rss.xml",
+              "https://shahidster.tech/feed.xml",
           ]
 
           selected = None
@@ -31,7 +31,10 @@ jobs:
               try:
                   req = urllib.request.Request(
                       url,
-                      headers={"User-Agent": "github-actions-blog-feed-check"},
+                      headers={
+                          "User-Agent": "rss-parser",
+                          "Accept": "application/rss+xml",
+                      },
                   )
                   with urllib.request.urlopen(req, timeout=20) as resp:
                       if resp.status != 200:
